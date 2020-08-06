@@ -27,7 +27,7 @@ find.element=function(list1,list2){
 
 # use mapply to loop through and apply the function to the data frame over the 
 # two lists and add result into new variable
-lineage.data$new <- mapply(find.element, lineage.data$test, lineage.data$true)
+lineage.data$occurance <- mapply(find.element, lineage.data$test, lineage.data$true)
 
 # print the final data frame
 lineage.data
